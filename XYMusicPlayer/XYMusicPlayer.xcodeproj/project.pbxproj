@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289DB6221E0834600056A062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6211E0834600056A062 /* main.m */; };
+		289DB6251E0834600056A062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6241E0834600056A062 /* AppDelegate.m */; };
+		289DB6281E0834600056A062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6271E0834600056A062 /* ViewController.m */; };
+		289DB62B1E0834600056A062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289DB6291E0834600056A062 /* Main.storyboard */; };
+		289DB62D1E0834600056A062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289DB62C1E0834600056A062 /* Assets.xcassets */; };
+		289DB6301E0834600056A062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289DB62E1E0834600056A062 /* LaunchScreen.storyboard */; };
+		289DB63B1E0834600056A062 /* XYMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB63A1E0834600056A062 /* XYMusicPlayerTests.m */; };
+		289DB6461E0834600056A062 /* XYMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6451E0834600056A062 /* XYMusicPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289DB6371E0834600056A062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289DB6151E08345F0056A062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289DB61C1E08345F0056A062;
+			remoteInfo = XYMusicPlayer;
+		};
+		289DB6421E0834600056A062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289DB6151E08345F0056A062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289DB61C1E08345F0056A062;
+			remoteInfo = XYMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289DB61D1E0834600056A062 /* XYMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289DB6211E0834600056A062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289DB6231E0834600056A062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		289DB6241E0834600056A062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		289DB6261E0834600056A062 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		289DB6271E0834600056A062 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		289DB62A1E0834600056A062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289DB62C1E0834600056A062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		289DB62F1E0834600056A062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		289DB6311E0834600056A062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289DB6361E0834600056A062 /* XYMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289DB63A1E0834600056A062 /* XYMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYMusicPlayerTests.m; sourceTree = "<group>"; };
+		289DB63C1E0834600056A062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289DB6411E0834600056A062 /* XYMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289DB6451E0834600056A062 /* XYMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYMusicPlayerUITests.m; sourceTree = "<group>"; };
+		289DB6471E0834600056A062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289DB61A1E08345F0056A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB6331E0834600056A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB63E1E0834600056A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289DB6141E08345F0056A062 = {
+			isa = PBXGroup;
+			children = (
+				289DB61F1E0834600056A062 /* XYMusicPlayer */,
+				289DB6391E0834600056A062 /* XYMusicPlayerTests */,
+				289DB6441E0834600056A062 /* XYMusicPlayerUITests */,
+				289DB61E1E0834600056A062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289DB61E1E0834600056A062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289DB61D1E0834600056A062 /* XYMusicPlayer.app */,
+				289DB6361E0834600056A062 /* XYMusicPlayerTests.xctest */,
+				289DB6411E0834600056A062 /* XYMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289DB61F1E0834600056A062 /* XYMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				289DB6231E0834600056A062 /* AppDelegate.h */,
+				289DB6241E0834600056A062 /* AppDelegate.m */,
+				289DB6261E0834600056A062 /* ViewController.h */,
+				289DB6271E0834600056A062 /* ViewController.m */,
+				289DB6291E0834600056A062 /* Main.storyboard */,
+				289DB62C1E0834600056A062 /* Assets.xcassets */,
+				289DB62E1E0834600056A062 /* LaunchScreen.storyboard */,
+				289DB6311E0834600056A062 /* Info.plist */,
+				289DB6201E0834600056A062 /* Supporting Files */,
+			);
+			path = XYMusicPlayer;
+			sourceTree = "<group>";
+		};
+		289DB6201E0834600056A062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289DB6211E0834600056A062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		289DB6391E0834600056A062 /* XYMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				289DB63A1E0834600056A062 /* XYMusicPlayerTests.m */,
+				289DB63C1E0834600056A062 /* Info.plist */,
+			);
+			path = XYMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		289DB6441E0834600056A062 /* XYMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				289DB6451E0834600056A062 /* XYMusicPlayerUITests.m */,
+				289DB6471E0834600056A062 /* Info.plist */,
+			);
+			path = XYMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289DB61C1E08345F0056A062 /* XYMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289DB64A1E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayer" */;
+			buildPhases = (
+				289DB6191E08345F0056A062 /* Sources */,
+				289DB61A1E08345F0056A062 /* Frameworks */,
+				289DB61B1E08345F0056A062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYMusicPlayer;
+			productName = XYMusicPlayer;
+			productReference = 289DB61D1E0834600056A062 /* XYMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		289DB6351E0834600056A062 /* XYMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289DB64D1E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayerTests" */;
+			buildPhases = (
+				289DB6321E0834600056A062 /* Sources */,
+				289DB6331E0834600056A062 /* Frameworks */,
+				289DB6341E0834600056A062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289DB6381E0834600056A062 /* PBXTargetDependency */,
+			);
+			name = XYMusicPlayerTests;
+			productName = XYMusicPlayerTests;
+			productReference = 289DB6361E0834600056A062 /* XYMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		289DB6401E0834600056A062 /* XYMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289DB6501E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayerUITests" */;
+			buildPhases = (
+				289DB63D1E0834600056A062 /* Sources */,
+				289DB63E1E0834600056A062 /* Frameworks */,
+				289DB63F1E0834600056A062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289DB6431E0834600056A062 /* PBXTargetDependency */,
+			);
+			name = XYMusicPlayerUITests;
+			productName = XYMusicPlayerUITests;
+			productReference = 289DB6411E0834600056A062 /* XYMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289DB6151E08345F0056A062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = gxy;
+				TargetAttributes = {
+					289DB61C1E08345F0056A062 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					289DB6351E0834600056A062 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ML78DUX4A6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 289DB61C1E08345F0056A062;
+					};
+					289DB6401E0834600056A062 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ML78DUX4A6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 289DB61C1E08345F0056A062;
+					};
+				};
+			};
+			buildConfigurationList = 289DB6181E08345F0056A062 /* Build configuration list for PBXProject "XYMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289DB6141E08345F0056A062;
+			productRefGroup = 289DB61E1E0834600056A062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289DB61C1E08345F0056A062 /* XYMusicPlayer */,
+				289DB6351E0834600056A062 /* XYMusicPlayerTests */,
+				289DB6401E0834600056A062 /* XYMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289DB61B1E08345F0056A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289DB6301E0834600056A062 /* LaunchScreen.storyboard in Resources */,
+				289DB62D1E0834600056A062 /* Assets.xcassets in Resources */,
+				289DB62B1E0834600056A062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB6341E0834600056A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB63F1E0834600056A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289DB6191E08345F0056A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289DB6281E0834600056A062 /* ViewController.m in Sources */,
+				289DB6251E0834600056A062 /* AppDelegate.m in Sources */,
+				289DB6221E0834600056A062 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB6321E0834600056A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289DB63B1E0834600056A062 /* XYMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289DB63D1E0834600056A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289DB6461E0834600056A062 /* XYMusicPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289DB6381E0834600056A062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289DB61C1E08345F0056A062 /* XYMusicPlayer */;
+			targetProxy = 289DB6371E0834600056A062 /* PBXContainerItemProxy */;
+		};
+		289DB6431E0834600056A062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289DB61C1E08345F0056A062 /* XYMusicPlayer */;
+			targetProxy = 289DB6421E0834600056A062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289DB6291E0834600056A062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289DB62A1E0834600056A062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289DB62E1E0834600056A062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289DB62F1E0834600056A062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289DB6481E0834600056A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289DB6491E0834600056A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289DB64B1E0834600056A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XYMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		289DB64C1E0834600056A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XYMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		289DB64E1E0834600056A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = XYMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYMusicPlayer.app/XYMusicPlayer";
+			};
+			name = Debug;
+		};
+		289DB64F1E0834600056A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = XYMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYMusicPlayer.app/XYMusicPlayer";
+			};
+			name = Release;
+		};
+		289DB6511E0834600056A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = XYMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYMusicPlayer;
+			};
+			name = Debug;
+		};
+		289DB6521E0834600056A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = XYMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289DB6181E08345F0056A062 /* Build configuration list for PBXProject "XYMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289DB6481E0834600056A062 /* Debug */,
+				289DB6491E0834600056A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289DB64A1E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289DB64B1E0834600056A062 /* Debug */,
+				289DB64C1E0834600056A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		289DB64D1E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289DB64E1E0834600056A062 /* Debug */,
+				289DB64F1E0834600056A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		289DB6501E0834600056A062 /* Build configuration list for PBXNativeTarget "XYMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289DB6511E0834600056A062 /* Debug */,
+				289DB6521E0834600056A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289DB6151E08345F0056A062 /* Project object */;
+}
