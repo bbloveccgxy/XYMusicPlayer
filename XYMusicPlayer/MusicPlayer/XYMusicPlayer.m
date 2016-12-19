@@ -34,7 +34,7 @@ static XYMusicPlayer *sharedPlayer = nil;
     self = [super init];
     if(self)
     {
-        
+        NSLog(@"");
     }
     return self;
 }
