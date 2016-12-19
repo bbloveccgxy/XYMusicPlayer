@@ -15,6 +15,8 @@
 		289DB6301E0834600056A062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289DB62E1E0834600056A062 /* LaunchScreen.storyboard */; };
 		289DB63B1E0834600056A062 /* XYMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB63A1E0834600056A062 /* XYMusicPlayerTests.m */; };
 		289DB6461E0834600056A062 /* XYMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6451E0834600056A062 /* XYMusicPlayerUITests.m */; };
+		289DB6561E0835EE0056A062 /* XYMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6551E0835EE0056A062 /* XYMusicPlayer.m */; };
+		289DB6591E083CD30056A062 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 289DB6581E083CD30056A062 /* MusicModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		289DB6411E0834600056A062 /* XYMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		289DB6451E0834600056A062 /* XYMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYMusicPlayerUITests.m; sourceTree = "<group>"; };
 		289DB6471E0834600056A062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289DB6541E0835EE0056A062 /* XYMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMusicPlayer.h; sourceTree = "<group>"; };
+		289DB6551E0835EE0056A062 /* XYMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMusicPlayer.m; sourceTree = "<group>"; };
+		289DB6571E083CD30056A062 /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		289DB6581E083CD30056A062 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		289DB6141E08345F0056A062 = {
 			isa = PBXGroup;
 			children = (
+				289DB6531E0835C10056A062 /* MusicPlayer */,
 				289DB61F1E0834600056A062 /* XYMusicPlayer */,
 				289DB6391E0834600056A062 /* XYMusicPlayerTests */,
 				289DB6441E0834600056A062 /* XYMusicPlayerUITests */,
@@ -138,6 +145,17 @@
 				289DB6471E0834600056A062 /* Info.plist */,
 			);
 			path = XYMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		289DB6531E0835C10056A062 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				289DB6541E0835EE0056A062 /* XYMusicPlayer.h */,
+				289DB6551E0835EE0056A062 /* XYMusicPlayer.m */,
+				289DB6571E083CD30056A062 /* MusicModel.h */,
+				289DB6581E083CD30056A062 /* MusicModel.m */,
+			);
+			path = MusicPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				289DB6281E0834600056A062 /* ViewController.m in Sources */,
+				289DB6561E0835EE0056A062 /* XYMusicPlayer.m in Sources */,
+				289DB6591E083CD30056A062 /* MusicModel.m in Sources */,
 				289DB6251E0834600056A062 /* AppDelegate.m in Sources */,
 				289DB6221E0834600056A062 /* main.m in Sources */,
 			);
@@ -428,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XYMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XYMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gxy.XYMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
